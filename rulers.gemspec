@@ -29,6 +29,8 @@ Gem::Specification.new do |spec|
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "rack"
   spec.add_dependency "rackup"
+  spec.add_development_dependency "rack-test"
+  spec.add_development_dependency "minitest"
   spec.add_dependency "webrick"
 
   # For more information and examples about making a new gem, check out our
